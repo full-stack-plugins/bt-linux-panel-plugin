@@ -14,7 +14,7 @@
     "mcp"
   ],
   "interface": {
-    "displayName": "Baota Panel",
+    "displayName": "宝塔 Linux 面板",
     "shortDescription": "Operate Baota (BT) Linux panel 13.0 via MCP",
     "longDescription": "Routes Kimi to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker/SSL/cron/firewall, and drives 98 panel tools. The plugin ships no local MCP server — connect your Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
     "developerName": "Full Stack Skills / PartMe.AI",
