@@ -1,0 +1,56 @@
+{
+  "name": "bt",
+  "displayName": "Baota Panel",
+  "displayName_i18n": {
+    "en": "Baota Panel",
+    "zh-CN": "宝塔面板运维"
+  },
+  "version": "1.0.0",
+  "description": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
+  "description_i18n": {
+    "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
+    "zh-CN": "通过 MCP 协议操作宝塔（BT）Linux 面板 13.0：诊断网站/数据库/服务、审计安全、远程调用 98 个面板工具（Streamable HTTP + Bearer Token）。"
+  },
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/partme-ai/partme-bt-plugin",
+  "repository": "https://github.com/partme-ai/partme-bt-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "baota",
+    "bt-panel",
+    "linux-ops",
+    "mcp",
+    "server-administration"
+  ],
+  "skills": "skills",
+  "commands": "commands",
+  "userConfig": {
+    "panel_public_ip": {
+      "type": "string",
+      "title": "宝塔面板公网 IP",
+      "description": "Baota panel public IP (e.g., 203.0.113.10) — used in the MCP URL template. Leave empty if not connected yet.",
+      "required": false
+    },
+    "panel_port": {
+      "type": "string",
+      "title": "MCP 端口",
+      "description": "Baota MCP service port (default 8765).",
+      "required": false
+    },
+    "bearer_token": {
+      "type": "string",
+      "title": "Bearer Token",
+      "description": "Authorization Bearer Token for the Baota MCP endpoint. Get it from the Baota plugin's '接入与体验' page. Treat as a secret.",
+      "required": false
+    },
+    "instance_id": {
+      "type": "string",
+      "title": "实例标识 (Instance ID)",
+      "description": "Baota MCP instance identifier generated at install time (path segment after /bt-mcp-/).",
+      "required": false
+    }
+  }
+}

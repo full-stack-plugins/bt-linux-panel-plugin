@@ -1,0 +1,45 @@
+{
+  "name": "codex-bt",
+  "version": "1.0.0+codex.20260917000000",
+  "description": "Let Codex operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/partme-ai/partme-bt-plugin",
+  "repository": "https://github.com/partme-ai/partme-bt-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "baota",
+    "bt-panel",
+    "linux-ops",
+    "mcp",
+    "server-administration"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Baota",
+    "shortDescription": "Operate Baota Linux panel via MCP",
+    "longDescription": "Routes Codex to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker, SSL, cron, and firewall. The plugin ships no local MCP server — connect your Codex/ZCode/Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
+    "developerName": "Full Stack Skills / PartMe.AI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/partme-ai/partme-bt-plugin",
+    "privacyPolicyURL": "https://github.com/partme-ai/partme-bt-plugin/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/partme-ai/partme-bt-plugin/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Connect to my Baota panel and run a read-only health check",
+      "Diagnose why my Baota-hosted site is slow",
+      "Audit the Baota panel's security and list the top issues"
+    ],
+    "brandColor": "#FF6B35",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": []
+  }
+}
