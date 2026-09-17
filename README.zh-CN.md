@@ -4,7 +4,7 @@
 
 [English](README.md)
 
-`codex-bt` 让 Codex 通过 MCP 协议操作远程宝塔（BT）Linux 面板。Agent 不是用 SSH 跑通用 shell，而是路由到一个结构化的 98 工具面板（覆盖网站/数据库/服务/Docker/防火墙/SSL/计划任务/通知）。
+`bt-linux-panel` 让 Codex 通过 MCP 协议操作远程宝塔（BT）Linux 面板。Agent 不是用 SSH 跑通用 shell，而是路由到一个结构化的 98 工具面板（覆盖网站/数据库/服务/Docker/防火墙/SSL/计划任务/通知）。
 
 本插件**不带本地 MCP server**，只交付技能 + 命令 + 钩子。你提供远程宝塔 MCP 端点（8765 + Bearer Token），Agent 提供路由。
 
@@ -32,7 +32,7 @@
     │
     ▼
 ┌──────────────────────────────────────────────────────────────┐
-│ codex-bt                                                      │
+│ bt-linux-panel                                                      │
 │  ① SessionStart     hooks/env_check.py — 本地宝塔环境探测      │
 │  ② UserPromptSubmit hooks/check_bt_intent.py — 意图识别        │
 │  ③ /bt 命令          → bt-panel-ops skill → 跨域路由          │
@@ -52,7 +52,7 @@
 
 | 属性 | 值 |
 |---|---|
-| 插件 ID（Codex） | `codex-bt` |
+| 插件 ID（Codex） | `bt-linux-panel` |
 | 插件 ID（ZCode / Kimi） | `bt` |
 | 宿主兼容 | Codex CLI / ChatGPT 桌面应用、ZCode、Kimi Code CLI、Claude Code |
 | 当前版本 | `1.0.0` |
@@ -92,7 +92,7 @@
 
 ```bash
 codex plugin marketplace add https://github.com/partme-ai/partme-bt-plugin.git --ref main
-codex plugin add codex-bt@partme-ai
+codex plugin add bt-linux-panel@partme-ai
 ```
 
 **ZCode**：建立本地 marketplace 文件夹（含 `marketplace.json`），然后 设置 → 插件 → 创建 → 添加插件市场。

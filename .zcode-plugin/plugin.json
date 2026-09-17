@@ -1,12 +1,12 @@
 {
-  "name": "bt",
+  "name": "bt-linux-panel",
   "displayName": "宝塔 Linux 面板",
   "displayName_i18n": {
-    "en": "BT Linux Panel",
+    "en": "宝塔 Linux 面板",
     "zh-CN": "宝塔 Linux 面板"
   },
   "version": "1.0.0",
-  "description": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
+  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "description_i18n": {
     "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
     "zh-CN": "通过 MCP 协议操作宝塔（BT）Linux 面板 13.0：诊断网站/数据库/服务、审计安全、远程调用 98 个面板工具（Streamable HTTP + Bearer Token）。"

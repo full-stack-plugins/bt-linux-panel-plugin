@@ -1,7 +1,7 @@
 {
-  "name": "codex-bt",
+  "name": "bt-linux-panel",
   "version": "1.0.0+codex.20260917000000",
-  "description": "Let Codex operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
+  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
@@ -36,10 +36,10 @@
       "Diagnose why my Baota-hosted site is slow",
       "Audit the Baota panel's security and list the top issues"
     ],
-    "brandColor": "#FF6B35",
+    "brandColor": "#1FA038",
     "composerIcon": "./assets/composer-icon.png",
-    "logo": "./assets/logo.png",
-    "logoDark": "./assets/logo-dark.png",
+    "logo": "./assets/official-logo.png",
+    "logoDark": "./assets/official-logo.png",
     "screenshots": []
   }
 }

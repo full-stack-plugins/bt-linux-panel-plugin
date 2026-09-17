@@ -4,7 +4,7 @@
 
 [简体中文](README.zh-CN.md)
 
-`codex-bt` lets Codex operate a remote Baota (BT) Linux panel through the MCP protocol. Instead of generic shell commands against an SSH target, the agent routes to a structured 98-tool surface for sites, databases, services, Docker, firewall, SSL, cron, and notifications.
+`bt-linux-panel` lets Codex operate a remote Baota (BT) Linux panel through the MCP protocol. Instead of generic shell commands against an SSH target, the agent routes to a structured 98-tool surface for sites, databases, services, Docker, firewall, SSL, cron, and notifications.
 
 The plugin ships **no local MCP server**. It is a guidance + skills + commands layer. You bring the remote Baota MCP endpoint (port 8765, Bearer Token), the agent brings the routing.
 
@@ -32,7 +32,7 @@ User prompt
     │
     ▼
 ┌──────────────────────────────────────────────────────────────┐
-│ codex-bt                                                      │
+│ bt-linux-panel                                                      │
 │  ① SessionStart    hooks/env_check.py — local BT panel probe  │
 │  ② UserPromptSubmit hooks/check_bt_intent.py — intent detect  │
 │  ③ /bt command      → bt-panel-ops skill → cross-domain router│
@@ -52,7 +52,7 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 
 | Property | Value |
 |---|---|
-| Plugin ID (Codex) | `codex-bt` |
+| Plugin ID (Codex) | `bt-linux-panel` |
 | Plugin ID (ZCode / Kimi) | `bt` |
 | Host compatibility | Codex CLI / ChatGPT desktop, ZCode, Kimi Code CLI, Claude Code |
 | Current version | `1.0.0` |
@@ -92,7 +92,7 @@ Full walkthrough: `skills/bt-mcp-setup/SKILL.md`.
 
 ```bash
 codex plugin marketplace add https://github.com/partme-ai/partme-bt-plugin.git --ref main
-codex plugin add codex-bt@partme-ai
+codex plugin add bt-linux-panel@partme-ai
 ```
 
 **ZCode**: create a local marketplace folder with a `marketplace.json` pointing at this repository, then add it via 设置 → 插件 → 创建 → 添加插件市场.
@@ -119,7 +119,7 @@ Choose your client and follow the example in `skills/bt-mcp-setup/SKILL.md`:
 ## What's inside
 
 ```
-.codex-plugin/plugin.json        Codex manifest (name=codex-bt)
+.codex-plugin/plugin.json        Codex manifest (name=bt-linux-panel)
 .zcode-plugin/plugin.json        ZCode manifest (name=bt, userConfig)
 kimi.plugin.json                  Kimi manifest (name=bt, hooks inline)
 commands/                          7 slash-commands (双端共用)

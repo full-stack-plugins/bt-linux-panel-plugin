@@ -1,0 +1,29 @@
+{
+  "name": "partme-ai-bt",
+  "interface": {
+    "displayName": "宝塔 Linux 面板"
+  },
+  "plugins": [
+    {
+      "name": "bt-linux-panel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-bt-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "version": "1.0.0",
+      "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
+      "interface": {
+        "displayName": "宝塔 Linux 面板",
+        "shortDescription": "Operate Baota Linux panel via MCP",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png"
+      }
+    }
+  ]
+}
