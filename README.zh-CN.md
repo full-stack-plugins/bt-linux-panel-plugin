@@ -116,6 +116,28 @@ codex plugin add bt-linux-panel@partme-ai
 }
 ```
 
+### 国内镜像（AtomGit）
+
+如果 GitHub 访问缓慢或不可达，可改用 AtomGit 镜像安装。命令完全一致，只把市场地址换成镜像：
+
+```bash
+codex plugin marketplace add https://atomgit.com/partme-ai/partme-bt-plugin.git --ref main
+codex plugin add bt-linux-panel@partme-ai
+```
+
+如需一步安装 partme-ai 全部插件目录：
+
+```bash
+codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git
+codex plugin add bt-linux-panel@partme-ai
+```
+
+注意事项：
+
+- AtomGit 源与 GitHub 源共用市场名，后添加的会覆盖先添加的。切回官方源执行
+  `codex plugin marketplace add https://github.com/partme-ai/plugins.git`。
+- ZCode 与 Kimi 用户可先将镜像仓库克隆到本地，再在各平台的 marketplace 配置中登记本地目录。
+
 ## 风险与安全
 
 本插件**仅作指引**。不在本地执行代码，不带远程 shell，不存储凭据。
