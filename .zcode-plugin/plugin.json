@@ -5,7 +5,7 @@
     "en": "宝塔 Linux 面板",
     "zh-CN": "宝塔 Linux 面板"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "description_i18n": {
     "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
