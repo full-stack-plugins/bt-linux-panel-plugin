@@ -12,4 +12,4 @@
 ## 3. Release
 
 - [x] 3.1 Bump plugin manifests and market metadata.
-- [ ] 3.2 Validate all three host manifests and publish a tagged release.
+- [x] 3.2 Validate all three host manifests and publish a tagged release.
