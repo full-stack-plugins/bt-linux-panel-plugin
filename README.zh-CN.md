@@ -55,7 +55,7 @@
 | 插件 ID（Codex） | `bt-linux-panel` |
 | 插件 ID（ZCode / Kimi） | `bt` |
 | 宿主兼容 | Codex CLI / ChatGPT 桌面应用、ZCode、Kimi Code CLI、Claude Code |
-| 当前版本 | `1.0.3` |
+| 当前版本 | `1.0.4` |
 | 插件清单 | `.codex-plugin/plugin.json`、`.zcode-plugin/plugin.json`、`kimi.plugin.json` |
 | MCP server | **本插件不自带** — 远程宝塔在 `https://<ip>:8765/bt-mcp-<id>/mcp` 暴露 |
 | 主要语言 | Python 3.13 钩子 + Markdown 技能 |
@@ -65,9 +65,9 @@
 
 | 插件版本 | 宿主 | 宝塔面板 | 平台 | 状态 |
 |---|---|---|---|---|
-| `1.0.3` | Codex CLI / ChatGPT 桌面 | 宝塔 13.0 + Python 3.13 + MCP 插件 | macOS / Linux / Windows | 结构已验证 |
-| `1.0.3` | ZCode | 同上 | 同上 | 结构已验证 |
-| `1.0.3` | Kimi Code CLI | 同上 | 同上 | 结构已验证 |
+| `1.0.4` | Codex CLI / ChatGPT 桌面 | 宝塔 13.0 + Python 3.13 + MCP 插件 | macOS / Linux / Windows | 结构已验证 |
+| `1.0.4` | ZCode | 同上 | 同上 | 结构已验证 |
+| `1.0.4` | Kimi Code CLI | 同上 | 同上 | 结构已验证 |
 
 > 真正的 MCP 连通性验证需要一台装有 MCP 服务的宝塔 13.0 面板，且 8765 端口可达。
 
@@ -91,7 +91,7 @@
 **Codex**：
 
 ```bash
-codex plugin marketplace add https://github.com/partme-ai/partme-bt-plugin.git --ref main
+codex plugin marketplace add https://github.com/full-stack-plugins/bt-linux-panel-plugin.git --ref v1.0.4
 codex plugin add bt-linux-panel@partme-ai
 ```
 

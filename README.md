@@ -55,7 +55,7 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 | Plugin ID (Codex) | `bt-linux-panel` |
 | Plugin ID (ZCode / Kimi) | `bt` |
 | Host compatibility | Codex CLI / ChatGPT desktop, ZCode, Kimi Code CLI, Claude Code |
-| Current version | `1.0.3` |
+| Current version | `1.0.4` |
 | Plugin manifests | `.codex-plugin/plugin.json`, `.zcode-plugin/plugin.json`, `kimi.plugin.json` |
 | MCP server | **None shipped** — remote Baota panel exposes MCP at `https://<ip>:8765/bt-mcp-<id>/mcp` |
 | Primary language | Python 3.13 hooks + Markdown skills |
@@ -65,9 +65,9 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 
 | Plugin version | Host | Baota panel | Platform | Status |
 |---|---|---|---|---|
-| `1.0.3` | Codex CLI or ChatGPT desktop | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
-| `1.0.3` | ZCode | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
-| `1.0.3` | Kimi Code CLI | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.4` | Codex CLI or ChatGPT desktop | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.4` | ZCode | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.4` | Kimi Code CLI | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
 
 > Live MCP verification requires a real Baota 13.0 panel with the MCP service installed and reachable on port 8765.
 
@@ -91,7 +91,7 @@ Full walkthrough: `skills/bt-mcp-setup/SKILL.md`.
 **Codex**:
 
 ```bash
-codex plugin marketplace add https://github.com/partme-ai/partme-bt-plugin.git --ref main
+codex plugin marketplace add https://github.com/full-stack-plugins/bt-linux-panel-plugin.git --ref v1.0.4
 codex plugin add bt-linux-panel@partme-ai
 ```
 

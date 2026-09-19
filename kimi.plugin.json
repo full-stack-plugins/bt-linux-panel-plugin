@@ -5,7 +5,7 @@
   "author": {
     "name": "Full Stack Skills / PartMe.AI"
   },
-  "homepage": "https://github.com/partme-ai/partme-bt-plugin",
+  "homepage": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
   "license": "Apache-2.0",
   "keywords": [
     "baota",
@@ -18,7 +18,7 @@
     "shortDescription": "Operate Baota Linux panel via MCP",
     "longDescription": "Routes Kimi to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker/SSL/cron/firewall, and drives 98 panel tools. The plugin ships no local MCP server — connect your Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
     "developerName": "Full Stack Skills / PartMe.AI",
-    "websiteURL": "https://github.com/partme-ai/partme-bt-plugin"
+    "websiteURL": "https://github.com/full-stack-plugins/bt-linux-panel-plugin"
   },
   "skills": "./skills/",
   "commands": "./commands/",

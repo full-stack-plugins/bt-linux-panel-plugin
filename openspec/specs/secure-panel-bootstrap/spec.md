@@ -1,7 +1,7 @@
 # secure-panel-bootstrap Specification
 
 ## Purpose
-TBD - created by archiving change harden-install-and-secrets. Update Purpose after archive.
+Define a secure Baota bootstrap and credential boundary that prevents untrusted remote input from becoming root-level execution.
 ## Requirements
 ### Requirement: Installer transport is authenticated
 
@@ -29,4 +29,3 @@ Host manifests SHALL mark bearer-token inputs as sensitive.
 
 - **WHEN** the bearer-token field is displayed or persisted
 - **THEN** it SHALL be handled as a secret field
-

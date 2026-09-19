@@ -15,8 +15,8 @@
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
   },
-  "homepage": "https://github.com/partme-ai/partme-bt-plugin",
-  "repository": "https://github.com/partme-ai/partme-bt-plugin",
+  "homepage": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
+  "repository": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
   "license": "Apache-2.0",
   "keywords": [
     "baota",

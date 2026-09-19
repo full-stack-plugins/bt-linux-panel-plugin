@@ -6,8 +6,8 @@
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
   },
-  "homepage": "https://github.com/partme-ai/partme-bt-plugin",
-  "repository": "https://github.com/partme-ai/partme-bt-plugin",
+  "homepage": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
+  "repository": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
   "license": "Apache-2.0",
   "keywords": [
     "baota",
@@ -28,9 +28,9 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/partme-ai/partme-bt-plugin",
-    "privacyPolicyURL": "https://github.com/partme-ai/partme-bt-plugin/blob/main/PRIVACY.md",
-    "termsOfServiceURL": "https://github.com/partme-ai/partme-bt-plugin/blob/main/TERMS.md",
+    "websiteURL": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
+    "privacyPolicyURL": "https://github.com/full-stack-plugins/bt-linux-panel-plugin/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/full-stack-plugins/bt-linux-panel-plugin/blob/main/TERMS.md",
     "defaultPrompt": [
       "Connect to my Baota panel and run a read-only health check",
       "Diagnose why my Baota-hosted site is slow",
