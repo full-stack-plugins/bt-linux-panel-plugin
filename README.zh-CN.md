@@ -55,7 +55,7 @@
 | 插件 ID（Codex） | `bt-linux-panel` |
 | 插件 ID（ZCode / Kimi） | `bt` |
 | 宿主兼容 | Codex CLI / ChatGPT 桌面应用、ZCode、Kimi Code CLI、Claude Code |
-| 当前版本 | `1.0.0` |
+| 当前版本 | `1.0.3` |
 | 插件清单 | `.codex-plugin/plugin.json`、`.zcode-plugin/plugin.json`、`kimi.plugin.json` |
 | MCP server | **本插件不自带** — 远程宝塔在 `https://<ip>:8765/bt-mcp-<id>/mcp` 暴露 |
 | 主要语言 | Python 3.13 钩子 + Markdown 技能 |
@@ -65,9 +65,9 @@
 
 | 插件版本 | 宿主 | 宝塔面板 | 平台 | 状态 |
 |---|---|---|---|---|
-| `1.0.0` | Codex CLI / ChatGPT 桌面 | 宝塔 13.0 + Python 3.13 + MCP 插件 | macOS / Linux / Windows | 结构已验证 |
-| `1.0.0` | ZCode | 同上 | 同上 | 结构已验证 |
-| `1.0.0` | Kimi Code CLI | 同上 | 同上 | 结构已验证 |
+| `1.0.3` | Codex CLI / ChatGPT 桌面 | 宝塔 13.0 + Python 3.13 + MCP 插件 | macOS / Linux / Windows | 结构已验证 |
+| `1.0.3` | ZCode | 同上 | 同上 | 结构已验证 |
+| `1.0.3` | Kimi Code CLI | 同上 | 同上 | 结构已验证 |
 
 > 真正的 MCP 连通性验证需要一台装有 MCP 服务的宝塔 13.0 面板，且 8765 端口可达。
 
@@ -77,7 +77,7 @@
 
 本插件**不**安装宝塔面板本身。请先独立安装宝塔，然后：
 
-- 升级到宝塔 13.0（面板首页 → 更新，或全新安装 `http://download.bt.cn/install/install13.sh`）
+- 升级到宝塔 13.0（面板首页 → 更新）。全新安装时须从 `https://download.bt.cn/install/install13.sh` 下载，独立核对官方 SHA-256、人工检查脚本，再分步执行；详见 `bt-mcp-setup`。
 - 升级 Python 到 3.13：`bash /www/server/panel/script/upgrade_py313_bundle.sh`
 - 在面板 **软件商店** 安装 **宝塔 MCP 服务** 插件
 - 面板防火墙与云安全组**两处**放行 8765 端口

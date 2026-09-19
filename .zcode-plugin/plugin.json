@@ -5,7 +5,7 @@
     "en": "宝塔 Linux 面板",
     "zh-CN": "宝塔 Linux 面板"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "description_i18n": {
     "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
@@ -44,6 +44,7 @@
       "type": "string",
       "title": "Bearer Token",
       "description": "Authorization Bearer Token for the Baota MCP endpoint. Get it from the Baota plugin's '接入与体验' page. Treat as a secret.",
+      "sensitive": true,
       "required": false
     },
     "instance_id": {

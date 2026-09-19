@@ -1,6 +1,6 @@
 {
   "name": "bt-linux-panel",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI"

@@ -55,7 +55,7 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 | Plugin ID (Codex) | `bt-linux-panel` |
 | Plugin ID (ZCode / Kimi) | `bt` |
 | Host compatibility | Codex CLI / ChatGPT desktop, ZCode, Kimi Code CLI, Claude Code |
-| Current version | `1.0.0` |
+| Current version | `1.0.3` |
 | Plugin manifests | `.codex-plugin/plugin.json`, `.zcode-plugin/plugin.json`, `kimi.plugin.json` |
 | MCP server | **None shipped** — remote Baota panel exposes MCP at `https://<ip>:8765/bt-mcp-<id>/mcp` |
 | Primary language | Python 3.13 hooks + Markdown skills |
@@ -65,9 +65,9 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 
 | Plugin version | Host | Baota panel | Platform | Status |
 |---|---|---|---|---|
-| `1.0.0` | Codex CLI or ChatGPT desktop | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
-| `1.0.0` | ZCode | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
-| `1.0.0` | Kimi Code CLI | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.3` | Codex CLI or ChatGPT desktop | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.3` | ZCode | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.3` | Kimi Code CLI | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
 
 > Live MCP verification requires a real Baota 13.0 panel with the MCP service installed and reachable on port 8765.
 
@@ -77,7 +77,7 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 
 This plugin does **not** install the Baota panel itself. Install the panel separately, then:
 
-- Update to Baota 13.0 (panel UI → Update, or fresh install from `http://download.bt.cn/install/install13.sh`)
+- Update to Baota 13.0 (panel UI → Update). For a fresh install, download the installer from `https://download.bt.cn/install/install13.sh`, verify the independently published SHA-256, inspect it, and execute it as separate steps; see `bt-mcp-setup`.
 - Upgrade Python to 3.13: `bash /www/server/panel/script/upgrade_py313_bundle.sh`
 - Install the **宝塔 MCP 服务** plugin from the panel's software store
 - Allow port 8765 in both panel firewall and cloud security group

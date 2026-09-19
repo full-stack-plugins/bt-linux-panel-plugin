@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "package": "bt-linux-panel-skills",
+      "repo": "https://github.com/full-stack-skills/bt-linux-panel-skills.git",
+      "ref": "v0.1.0",
+      "sha": "db6c7bcf0eec20e7376964fb469bafa1492f28e4",
+      "skills": [
+        "bt-firewall-audit",
+        "bt-mcp-setup",
+        "bt-mcp-tools",
+        "bt-panel-ops",
+        "bt-security-audit",
+        "bt-site-ops"
+      ],
+      "dest": "skills/",
+      "sha256": {
+        "bt-firewall-audit": "59cd90240310949e24bd64d96c852fcca8fbb8fc8025ebc1c44c60e11e5c1f13",
+        "bt-mcp-setup": "5ed855da52c956deb5557773dc7081b74f9f227b7ed45f82bf37e64884f6ae2a",
+        "bt-mcp-tools": "727ad87af4a0fd04c6ad129071a0dffea8d08786d3386d163da3a2642f5a7fcd",
+        "bt-panel-ops": "b461111c19205e853c8fb64b0b2bdb331fdac7a0f8241ea93e074736c40854bc",
+        "bt-security-audit": "4ce43dbc730d286f7ca0e36814b451a5440537bd19b1e6aeedcf61cb85f0ce49",
+        "bt-site-ops": "8ca60f84b0be263682691751c10eaf1acd0761597600a8a075f99bd6caa86954"
+      }
+    }
+  ]
+}
