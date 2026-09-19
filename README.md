@@ -1,10 +1,10 @@
-# Codex Baota Plugin
+# Baota Linux Panel Plugin
 
 > Operate a remote Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites, audit security, drive 98 panel tools.
 
 [简体中文](README.zh-CN.md)
 
-`bt-linux-panel` lets Codex operate a remote Baota (BT) Linux panel through the MCP protocol. Instead of generic shell commands against an SSH target, the agent routes to a structured 98-tool surface for sites, databases, services, Docker, firewall, SSL, cron, and notifications.
+`bt-linux-panel` lets supported coding agents operate a remote Baota (BT) Linux panel through the MCP protocol. Instead of generic shell commands against an SSH target, the agent routes to a structured 98-tool surface for sites, databases, services, Docker, firewall, SSL, cron, and notifications.
 
 The plugin ships **no local MCP server**. It is a guidance + skills + commands layer. You bring the remote Baota MCP endpoint (port 8765, Bearer Token), the agent brings the routing.
 
@@ -55,7 +55,7 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 | Plugin ID (Codex) | `bt-linux-panel` |
 | Plugin ID (ZCode / Kimi) | `bt` |
 | Host compatibility | Codex CLI / ChatGPT desktop, ZCode, Kimi Code CLI, Claude Code |
-| Current version | `1.0.4` |
+| Current version | `1.0.5` |
 | Plugin manifests | `.codex-plugin/plugin.json`, `.zcode-plugin/plugin.json`, `kimi.plugin.json` |
 | MCP server | **None shipped** — remote Baota panel exposes MCP at `https://<ip>:8765/bt-mcp-<id>/mcp` |
 | Primary language | Python 3.13 hooks + Markdown skills |
@@ -65,9 +65,9 @@ remote Baota 13.0 panel @ port 8765 (Streamable HTTP + Bearer Token)
 
 | Plugin version | Host | Baota panel | Platform | Status |
 |---|---|---|---|---|
-| `1.0.4` | Codex CLI or ChatGPT desktop | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
-| `1.0.4` | ZCode | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
-| `1.0.4` | Kimi Code CLI | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.5` | Codex CLI or ChatGPT desktop | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.5` | ZCode | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
+| `1.0.5` | Kimi Code CLI | Baota 13.0 + Python 3.13 + MCP plugin | macOS / Linux / Windows | Verified (structure) |
 
 > Live MCP verification requires a real Baota 13.0 panel with the MCP service installed and reachable on port 8765.
 
@@ -91,7 +91,7 @@ Full walkthrough: `skills/bt-mcp-setup/SKILL.md`.
 **Codex**:
 
 ```bash
-codex plugin marketplace add https://github.com/full-stack-plugins/bt-linux-panel-plugin.git --ref v1.0.4
+codex plugin marketplace add https://github.com/full-stack-plugins/bt-linux-panel-plugin.git --ref v1.0.5
 codex plugin add bt-linux-panel@partme-ai
 ```
 

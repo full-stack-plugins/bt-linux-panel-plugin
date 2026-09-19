@@ -1,10 +1,10 @@
-# Codex 宝塔面板插件
+# 宝塔 Linux 面板插件
 
 > 通过 MCP 协议远程操作宝塔（BT）Linux 面板 13.0：诊断网站、审计安全、调用 98 个面板工具。
 
 [English](README.md)
 
-`bt-linux-panel` 让 Codex 通过 MCP 协议操作远程宝塔（BT）Linux 面板。Agent 不是用 SSH 跑通用 shell，而是路由到一个结构化的 98 工具面板（覆盖网站/数据库/服务/Docker/防火墙/SSL/计划任务/通知）。
+`bt-linux-panel` 让受支持的编码智能体通过 MCP 协议操作远程宝塔（BT）Linux 面板。Agent 不是用 SSH 跑通用 shell，而是路由到一个结构化的 98 工具面板（覆盖网站/数据库/服务/Docker/防火墙/SSL/计划任务/通知）。
 
 本插件**不带本地 MCP server**，只交付技能 + 命令 + 钩子。你提供远程宝塔 MCP 端点（8765 + Bearer Token），Agent 提供路由。
 
@@ -55,7 +55,7 @@
 | 插件 ID（Codex） | `bt-linux-panel` |
 | 插件 ID（ZCode / Kimi） | `bt` |
 | 宿主兼容 | Codex CLI / ChatGPT 桌面应用、ZCode、Kimi Code CLI、Claude Code |
-| 当前版本 | `1.0.4` |
+| 当前版本 | `1.0.5` |
 | 插件清单 | `.codex-plugin/plugin.json`、`.zcode-plugin/plugin.json`、`kimi.plugin.json` |
 | MCP server | **本插件不自带** — 远程宝塔在 `https://<ip>:8765/bt-mcp-<id>/mcp` 暴露 |
 | 主要语言 | Python 3.13 钩子 + Markdown 技能 |
@@ -65,9 +65,9 @@
 
 | 插件版本 | 宿主 | 宝塔面板 | 平台 | 状态 |
 |---|---|---|---|---|
-| `1.0.4` | Codex CLI / ChatGPT 桌面 | 宝塔 13.0 + Python 3.13 + MCP 插件 | macOS / Linux / Windows | 结构已验证 |
-| `1.0.4` | ZCode | 同上 | 同上 | 结构已验证 |
-| `1.0.4` | Kimi Code CLI | 同上 | 同上 | 结构已验证 |
+| `1.0.5` | Codex CLI / ChatGPT 桌面 | 宝塔 13.0 + Python 3.13 + MCP 插件 | macOS / Linux / Windows | 结构已验证 |
+| `1.0.5` | ZCode | 同上 | 同上 | 结构已验证 |
+| `1.0.5` | Kimi Code CLI | 同上 | 同上 | 结构已验证 |
 
 > 真正的 MCP 连通性验证需要一台装有 MCP 服务的宝塔 13.0 面板，且 8765 端口可达。
 
@@ -91,7 +91,7 @@
 **Codex**：
 
 ```bash
-codex plugin marketplace add https://github.com/full-stack-plugins/bt-linux-panel-plugin.git --ref v1.0.4
+codex plugin marketplace add https://github.com/full-stack-plugins/bt-linux-panel-plugin.git --ref v1.0.5
 codex plugin add bt-linux-panel@partme-ai
 ```
 
