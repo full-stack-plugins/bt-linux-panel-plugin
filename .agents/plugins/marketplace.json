@@ -16,7 +16,7 @@
         "authentication": "ON_USE"
       },
       "category": "Productivity",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "interface": {
