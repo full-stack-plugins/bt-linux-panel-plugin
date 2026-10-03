@@ -1,8 +1,8 @@
 {
   "name": "bt-linux-panel",
-  "displayName": "Baota Linux Panel",
+  "displayName": "BaoTa Linux Panel",
   "displayName_i18n": {
-    "en": "Baota Linux Panel",
+    "en": "BaoTa Linux Panel",
     "zh-CN": "宝塔 Linux 面板"
   },
   "version": "1.0.6",

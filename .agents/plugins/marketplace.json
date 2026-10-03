@@ -1,7 +1,7 @@
 {
   "name": "partme-ai-bt",
   "interface": {
-    "displayName": "Baota Linux Panel"
+    "displayName": "BaoTa Linux Panel"
   },
   "plugins": [
     {
@@ -20,7 +20,7 @@
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.0.6/assets/official-logo.png",
       "interface": {
-        "displayName": "Baota Linux Panel",
+        "displayName": "BaoTa Linux Panel",
         "shortDescription": "Operate Baota Linux panel via MCP",
         "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.0.6/assets/official-logo.png"
       }

@@ -20,7 +20,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Baota Linux Panel",
+        "displayName": "BaoTa Linux Panel",
         "shortDescription": "Operate Baota Linux panel via MCP",
         "longDescription": "Routes Codex to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker, SSL, cron, and firewall. The plugin ships no local MCP server — connect your Codex/ZCode/Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
         "developerName": "Full Stack Skills / PartMe.AI",
@@ -46,7 +46,7 @@
       }
     },
     "ai.nanoco.nanoclaw": {
-      "agentName": "Baota Linux Panel"
+      "agentName": "BaoTa Linux Panel"
     }
   }
 }
