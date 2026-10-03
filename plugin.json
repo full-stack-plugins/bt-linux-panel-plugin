@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bt-linux-panel",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
@@ -20,7 +20,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "宝塔 Linux 面板",
+        "displayName": "Baota Linux Panel",
         "shortDescription": "Operate Baota Linux panel via MCP",
         "longDescription": "Routes Codex to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker, SSL, cron, and firewall. The plugin ships no local MCP server — connect your Codex/ZCode/Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
         "developerName": "Full Stack Skills / PartMe.AI",
@@ -46,7 +46,7 @@
       }
     },
     "ai.nanoco.nanoclaw": {
-      "agentName": "宝塔 Linux 面板"
+      "agentName": "Baota Linux Panel"
     }
   }
 }
