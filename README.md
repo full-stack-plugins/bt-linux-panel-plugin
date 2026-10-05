@@ -1,5 +1,14 @@
 # Baota Linux Panel Plugin
 
+## Plugin marketplaces
+
+This plugin belongs to **Full-stack development**.
+
+| Category | Marketplace | Purpose |
+| --- | --- | --- |
+| Full-stack development | [Full Stack Plugins](https://github.com/partme-ai/full-stack-plugins) | Architecture and UI design, code understanding, quality checks, code review, workflow governance, and server operations |
+| AIGC content creation | [Full AIGC Plugins](https://github.com/partme-ai/full-aigc-plugins) | Image, video, audio, music, 3D, and multimodal content creation |
+
 > Operate a remote Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites, audit security, drive 98 panel tools.
 
 [简体中文](README.zh-CN.md)

@@ -1,5 +1,14 @@
 # 宝塔 Linux 面板插件
 
+## 插件市场导航
+
+本插件所属分类：**全栈开发**。
+
+| 分类 | 插件市场入口 | 用途 |
+| --- | --- | --- |
+| 全栈开发 | [Full Stack Plugins](https://github.com/partme-ai/full-stack-plugins) | 架构与 UI 设计、代码理解、质量检查、代码审查、流程治理与服务器运维 |
+| AIGC 内容创作 | [Full AIGC Plugins](https://github.com/partme-ai/full-aigc-plugins) | 图像、视频、音频、音乐、3D 与多模态内容创作 |
+
 > 通过 MCP 协议远程操作宝塔（BT）Linux 面板 13.0：诊断网站、审计安全、调用 98 个面板工具。
 
 [English](README.md)
