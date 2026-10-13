@@ -1,0 +1,12 @@
+{
+  "name": "bt-linux-panel",
+  "version": "1.0.6",
+  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
+  "repository": "https://github.com/full-stack-plugins/bt-linux-panel-plugin",
+  "license": "Apache-2.0"
+}
