@@ -1,0 +1,12 @@
+{
+  "name": "bt-linux-panel-plugin",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dsh/lib/index.js",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
