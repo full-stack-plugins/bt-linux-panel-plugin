@@ -1,5 +1,5 @@
 {
-  "name": "@partme-dsh/bt-linux-panel",
+  "name": "bt-linux-panel",
   "version": "1.1.0",
   "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
   "type": "module",
@@ -31,5 +31,6 @@
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
-  }
+  },
+  "private": true
 }

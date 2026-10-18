@@ -4,4 +4,4 @@
 # for the other hosts.
 - insert:
     - id: bt-linux-panel-plugin
-      name: '@partme-dsh/bt-linux-panel'
+      name: 'bt-linux-panel'
