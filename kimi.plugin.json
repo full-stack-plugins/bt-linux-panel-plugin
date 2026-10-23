@@ -1,7 +1,7 @@
 {
   "name": "bt-linux-panel",
   "version": "1.1.0",
-  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+  "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI"
   },
@@ -14,8 +14,8 @@
     "mcp"
   ],
   "interface": {
-    "displayName": "BaoTa Linux Panel",
-    "shortDescription": "Operate Baota Linux panel via MCP",
+    "displayName": "Server Operations · BaoTa Panel",
+    "shortDescription": "Site diagnosis, databases, firewall and intrusion checks",
     "longDescription": "Routes Kimi to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker/SSL/cron/firewall, and drives 98 panel tools. The plugin ships no local MCP server — connect your Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
     "developerName": "Full Stack Skills / PartMe.AI",
     "websiteURL": "https://github.com/full-stack-plugins/bt-linux-panel-plugin"

@@ -1,15 +1,13 @@
 {
   "name": "bt-linux-panel",
-  "displayName": "BaoTa Linux Panel",
+  "displayName": "Server Operations · BaoTa Panel",
   "displayName_i18n": {
-    "en": "BaoTa Linux Panel",
-    "zh-CN": "宝塔 Linux 面板"
+    "en": "Server Operations · BaoTa Panel"
   },
   "version": "1.1.0",
-  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+  "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
   "description_i18n": {
-    "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, and drive 98 panel tools via Streamable HTTP + Bearer Token.",
-    "zh-CN": "通过 MCP 协议操作宝塔（BT）Linux 面板 13.0：诊断网站/数据库/服务、审计安全、远程调用 98 个面板工具（Streamable HTTP + Bearer Token）。"
+    "en": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks."
   },
   "author": {
     "name": "Full Stack Skills / PartMe.AI",

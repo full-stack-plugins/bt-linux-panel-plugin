@@ -1,7 +1,7 @@
 {
   "name": "bt-linux-panel",
   "version": "1.1.0",
-  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+  "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"

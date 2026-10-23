@@ -1,7 +1,7 @@
 {
   "name": "bt-linux-panel",
-  "version": "1.1.0+codex.20261018",
-  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+  "version": "1.1.0",
+  "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
@@ -18,8 +18,8 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "BaoTa Linux Panel",
-    "shortDescription": "Operate Baota Linux panel via MCP",
+    "displayName": "Server Operations · BaoTa Panel",
+    "shortDescription": "Site diagnosis, databases, firewall and intrusion checks",
     "longDescription": "Routes Codex to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker, SSL, cron, and firewall. The plugin ships no local MCP server — connect your Codex/ZCode/Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
     "developerName": "Full Stack Skills / PartMe.AI",
     "category": "Productivity",
@@ -37,9 +37,10 @@
       "Audit the Baota panel's security and list the top issues"
     ],
     "brandColor": "#1FA038",
-    "composerIcon": "./assets/composer-icon.png",
+    "composerIcon": "./assets/official-logo.png",
     "logo": "./assets/official-logo.png",
     "logoDark": "./assets/official-logo.png",
-    "screenshots": []
+    "screenshots": [],
+    "composerIconDark": "./assets/official-logo.png"
   }
 }
