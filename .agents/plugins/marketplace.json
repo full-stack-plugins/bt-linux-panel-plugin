@@ -23,7 +23,12 @@
         "displayName": "BaoTa Panel · Server Operations",
         "shortDescription": "Site diagnosis, databases, firewall and intrusion checks",
         "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.1.0/assets/official-logo.png"
-      }
+      },
+      "line": "full-stack",
+      "componentTypes": [
+        "skills",
+        "mcp"
+      ]
     }
   ]
 }
