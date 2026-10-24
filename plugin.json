@@ -20,8 +20,8 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "BaoTa Panel · Server Operations",
-        "shortDescription": "Site diagnosis, databases, firewall and intrusion checks",
+        "displayName": "BaoTa Panel（服务器运维）",
+        "shortDescription": "站点诊断、数据库、防火墙与入侵排查",
         "longDescription": "Routes Codex to operate Baota (BT) Linux panel 13.0 through the MCP protocol. Diagnoses sites/databases/services, audits security, manages Docker, SSL, cron, and firewall. The plugin ships no local MCP server — connect your Codex/ZCode/Kimi client to a remote Baota MCP endpoint at port 8765 with Bearer Token auth.",
         "developerName": "Full Stack Skills / PartMe.AI",
         "category": "Productivity",
