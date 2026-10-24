@@ -1,13 +1,15 @@
 {
   "name": "bt-linux-panel",
-  "displayName": "BaoTa Panel · Server Operations",
+  "displayName": "BaoTa Panel（服务器运维）",
   "displayName_i18n": {
-    "en": "BaoTa Panel · Server Operations"
+    "en": "BaoTa Panel · Server Operations",
+    "zh-CN": "BaoTa Panel（服务器运维）"
   },
   "version": "1.1.0",
-  "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
+  "description": "通过 MCP 操作宝塔面板：服务管理、站点与数据库诊断、防火墙审计与入侵排查。",
   "description_i18n": {
-    "en": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks."
+    "en": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
+    "zh-CN": "通过 MCP 操作宝塔面板：服务管理、站点与数据库诊断、防火墙审计与入侵排查。"
   },
   "author": {
     "name": "Full Stack Skills / PartMe.AI",

@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bt-linux-panel",
   "version": "1.1.0",
-  "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
+  "description": "通过 MCP 操作宝塔面板：服务管理、站点与数据库诊断、防火墙审计与入侵排查。",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
@@ -49,5 +49,12 @@
     "ai.nanoco.nanoclaw": {
       "agentName": "BaoTa Linux Panel"
     }
+  },
+  "displayName": "BaoTa Panel（服务器运维）",
+  "displayName_i18n": {
+    "zh-CN": "BaoTa Panel（服务器运维）"
+  },
+  "description_i18n": {
+    "zh-CN": "通过 MCP 操作宝塔面板：服务管理、站点与数据库诊断、防火墙审计与入侵排查。"
   }
 }
