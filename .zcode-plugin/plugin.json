@@ -1,8 +1,8 @@
 {
   "name": "bt-linux-panel",
-  "displayName": "Server Operations · BaoTa Panel",
+  "displayName": "BaoTa Panel · Server Operations",
   "displayName_i18n": {
-    "en": "Server Operations · BaoTa Panel"
+    "en": "BaoTa Panel · Server Operations"
   },
   "version": "1.1.0",
   "description": "Operate the Baota Linux panel through MCP: services, site and database diagnosis, firewall review and intrusion checks.",
