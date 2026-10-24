@@ -1,7 +1,7 @@
 {
   "name": "partme-ai-bt",
   "interface": {
-    "displayName": "BaoTa Panel · Server Operations"
+    "displayName": "BaoTa Panel（服务器运维）"
   },
   "plugins": [
     {
