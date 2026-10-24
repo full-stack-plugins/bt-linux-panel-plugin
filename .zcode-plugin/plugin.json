@@ -4,7 +4,7 @@
   "displayName_i18n": {
     "zh-CN": "BaoTa Panel（服务器运维）"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "通过 MCP 操作宝塔面板：服务管理、站点与数据库诊断、防火墙审计与入侵排查。",
   "description_i18n": {
     "zh-CN": "通过 MCP 操作宝塔面板：服务管理、站点与数据库诊断、防火墙审计与入侵排查。"
