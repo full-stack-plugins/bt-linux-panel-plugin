@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class SecurityContractTests(unittest.TestCase):
     def test_installer_guidance_uses_https_and_never_executes_download_inline(self) -> None:
-        targets = [ROOT / "README.md", ROOT / "README.zh-CN.md", ROOT / "skills" / "bt-mcp-setup" / "SKILL.md"]
+        targets = [ROOT / "README.md", ROOT / "README.en.md", ROOT / "skills" / "bt-mcp-setup" / "SKILL.md"]
         for target in targets:
             text = target.read_text(encoding="utf-8")
             self.assertNotIn("http://download.bt.cn", text, target)
@@ -31,7 +31,7 @@ class SecurityContractTests(unittest.TestCase):
         zcode = json.loads((ROOT / ".zcode-plugin" / "plugin.json").read_text(encoding="utf-8"))
         kimi = json.loads((ROOT / "kimi.plugin.json").read_text(encoding="utf-8"))
         self.assertEqual(zcode["version"], kimi["version"])
-        self.assertTrue(codex["version"].startswith(zcode["version"] + "+codex."))
+        self.assertRegex(codex["version"], rf"^{re.escape(zcode['version'])}(?:\\+codex\\.[0-9A-Za-z.-]+)?$")
 
 
 if __name__ == "__main__":
