@@ -31,7 +31,19 @@ class SecurityContractTests(unittest.TestCase):
         zcode = json.loads((ROOT / ".zcode-plugin" / "plugin.json").read_text(encoding="utf-8"))
         kimi = json.loads((ROOT / "kimi.plugin.json").read_text(encoding="utf-8"))
         self.assertEqual(zcode["version"], kimi["version"])
-        self.assertRegex(codex["version"], rf"^{re.escape(zcode['version'])}(?:\\+codex\\.[0-9A-Za-z.-]+)?$")
+        pattern = rf"^{re.escape(zcode['version'])}(?:\+codex\.[0-9A-Za-z.-]+)?$"
+        self.assertRegex(codex["version"], pattern)
+        for valid in (zcode["version"], zcode["version"] + "+codex.1", zcode["version"] + "+codex.20261031"):
+            with self.subTest(valid=valid):
+                self.assertRegex(valid, pattern)
+        for invalid in (
+            zcode["version"] + r"\codex\.1",
+            zcode["version"] + "+codex.",
+            zcode["version"] + "+other.1",
+            zcode["version"] + ".1",
+        ):
+            with self.subTest(invalid=invalid):
+                self.assertNotRegex(invalid, pattern)
 
 
 if __name__ == "__main__":
