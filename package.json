@@ -1,13 +1,14 @@
 {
-  "name": "bt-linux-panel-plugin",
-  "version": "1.1.0",
+  "name": "bt-linux-panel",
+  "version": "1.1.2",
   "private": true,
   "type": "module",
   "main": "./dsh/lib/index.js",
   "dsh": {
     "bundle": {
-      "patch": "./cordis.patch.yml"
+      "patch": "./dsh/cordis.patch.yml"
     }
   },
-  "icon": "./dsh/icon.png"
+  "icon": "./dsh/icon.png",
+  "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security."
 }
